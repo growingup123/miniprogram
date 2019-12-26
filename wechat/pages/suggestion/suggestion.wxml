@@ -1,0 +1,8 @@
+<view wx:for="{{itemList}}" class="recommend-service-container">
+  <!-- <view class="first-title title">
+    <view class="left-title">{{item.title}}</view>
+  </view> -->
+    <view wx:for="{{item.items}}" wx:key="{{index}}" bindtap="{{item.bindType}}" class="title" data-id="{{item.dataId}}">
+      {{item.name}}
+    </view>
+  </view>

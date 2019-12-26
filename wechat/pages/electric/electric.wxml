@@ -1,0 +1,18 @@
+<view class='page-bg'>
+  <view class='page-title'>
+    <image class='image' src='https://jbxqalipay.nanjingdata.cn/image/yanjianghead.png'/>
+  </view>
+  <view>
+    <view class='page-hd'>
+      <view class='page-hd-zs'>温馨提示</view>
+      <view class='page-hd-cont'>
+        <view>1、本平台供江北新区直管区内（大厂、葛塘、长芦、沿江、泰山、盘城、顶山）电力用户向供电公司申请新装、增容等电力业务。</view>
+        <view>2、为确保您在线申请顺利，请正面拍摄申请材料，尽量避免拍摄照片存在倾斜、遮挡等情况。</view>
+        <view>3、若您对申请材料是否齐全等存在疑问，可先行上传材料，提交申请。供电公司将及时处理申请，主动与您联系，并上门收集申请材料。</view>
+      </view>
+    </view>
+    <view wx:for="{{itemList}}" wx:key="yanjiang" >
+      <button wx:for="{{item.items}}" wx:key="{{itemsIndex}}" class='btn' bindtap="{{item.bindType}}" data-id="{{item.dataId}}">在线申报</button>
+    </view>
+  </view>
+</view>

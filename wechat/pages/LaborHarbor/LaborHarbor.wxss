@@ -1,0 +1,71 @@
+page {
+  background: white;
+  padding-bottom: 46px;
+}
+
+.content{
+  margin-top: -20px;
+  padding: 20px;
+  background: linear-gradient(to top,white, #dddddf);
+  height: 400px;
+}
+
+.image{
+  width: 100%;
+  height:140px;
+  margin-top: 0px;
+  background:#dddddf;
+}
+.innercontent{
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: left;
+  color: black;
+  Line-height:2em;
+}
+.service-icon{
+  width:35px;
+  height:35px;
+}
+.service-item {
+padding:4px 0px 4px 8px;
+width:33%;
+display:flex;
+align-items:center;
+margin:10px auto;
+background: white;
+}
+
+.service-item .service-name {
+  color: #333;
+  font-size: 35rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  text-align: center;
+  /* margin-left: 10px; */
+}
+
+.btn {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-shadow: 0 1px 0 #484f58;
+  background-color: rgb(24, 180, 237);
+  color: white;
+}
+
+.btn1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.distance {
+  color:#88888b;
+  padding: 6px;
+}
+
+.address {
+  padding: 6px;
+}
